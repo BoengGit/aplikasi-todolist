@@ -1,7 +1,7 @@
 <?php
 
-require_once "../View/ViewShowTodoList.php";
-require_once "../BusinessLogic/AddTodoList.php";
+require_once "../aplikasi-todolist/View/ViewShowTodoList.php";
+require_once "../aplikasi-todolist/BusinessLogic/AddTodoList.php";
 
 addTodoList("Bajang");
 addTodoList("Riau");
