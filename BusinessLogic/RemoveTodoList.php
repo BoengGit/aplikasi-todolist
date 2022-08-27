@@ -4,7 +4,6 @@
 function removeTodoList(int $number): bool
 {
     global $todoList;
-    unset($todoList[$number]);
 
     if ($number > sizeof($todoList)) {
         return false;
